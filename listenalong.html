@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Topi's listen along</title>
+	<meta property="og:title" content="Hewwo I'm Topi!" />
+	<meta property="og:description" content="Topi's listen along Page!" />
+	<meta property="og:image" content="/images/avatar@2x_new.png" />
+	<meta name="theme-color" content="#0088ff" />
+	<meta name="description" content="Hewwo :3">
+	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton-dark.css">
+	<link rel="stylesheet" href="css/brands.css">
+	<link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+	<link rel="icon" type="image/png" href="images/avatar@2x.png">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="column" style="margin-top: 10%">
+				<img src="images/avatar.png" class="avatar" srcset="images/avatar@2x.png" alt="">
+				<p>Welcome to Topi's listen along Page!</p>
+			</div>
+		</div>
+	</div>
+	<div style="text-align:center;">
+		<video
+		style="width:100%; height:100%;"
+			id="my-video"
+			class="video-js"
+			controls
+			autoplay
+			preload="auto"
+			responsive="true"
+			fluid="true"
+			poster="https://not-topi.xyz/michiru.png"
+			data-setup="{}"
+		>
+			<source src="https://furstream.cuwuties.srv64.de/hls/Topi/index.m3u8" type="application/x-mpegURL" />
+			<p class="vjs-no-js">
+				To view this video please enable JavaScript, and consider upgrading to a
+				web browser that
+				<a href="https://videojs.com/html5-video-support/" target="_blank"
+				>supports HTML5 video</a
+				>
+			</p>
+		</video>
+		<script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+	</div>
+</body>
+</html>
